@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="/css/home.css"> -->
+     <style>
+        
+        
+        *
+        {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .logo{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 10px;
+            align-items: center;
+            h1{
+                font-style: italic;
+              font-family: Lucida Handwriting;
+            }
+            i{
+                font-size: 30px;
+            }
+        }
+       .home {
+            /* background-color: red; */
+            width: 100%;
+            height:auto;
+           
+            /* position: relative; */
+            
+        }
+        .story {
+             background-color: #ffffff;
+             height: 180px;
+             display: flex;
+             justify-content: flex-start;
+             align-items: center;
+             padding: 10px;
+             overflow-x: auto;
+             /* scrollbar-width: none;
+             -ms-overflow-style: none; */
+           
+             .put {
+                 min-width: 100px;
+                 height: 100px;
+                 background-color: #333;
+                 margin: 0 8px;
+                 border-radius: 50%;
+                 border: 3px solid #ff4444;
+                 flex-shrink: 0;
+                 cursor: pointer;
+                 transition: transform 0.2s;
+             }
+
+             .put:hover {
+                 transform: scale(1.1);
+             }
+         }
+
+         .story::-webkit-scrollbar {
+             display: none;
+         }             
+        .story-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .block {
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: auto;
+
+            p:nth-child(4){
+               
+            font-size: 20px;
+            font-weight: 50px;
+            margin: 10px;
+        }
+        p:nth-child(5){
+            margin: 10px;
+        }
+            
+        }
+        .post1{
+            border: 1px solid #333;;
+            display: flex;
+            padding: 10px;
+            .put {
+                 width: 60px;
+                 height: 60px;
+                 background-color: #333;
+                 margin: 0 8px;
+                 border-radius: 50%;
+                 border: 3px solid #ff4444;
+                
+                 cursor: pointer;
+                 transition: transform 0.2s;
+             }
+             .post-content{
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            p:nth-child(1){
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+            
+        }
+        i{
+                font-size: 30px;
+                margin-top: 20px;
+                margin-left: 280px;
+            }
+        }
+        .post2{
+            min-height: 400px;
+            background-color: #460000;
+        }
+        .post3{
+            height: auto;
+            background-color: rgb(255, 255, 255);
+            i{
+                font-size: 20px;
+                margin: 10px;
+            }
+            i:nth-child(4){
+            margin-left: 270px;
+        }
+        
+        }
+        
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   </head>
+<body>
+    <div class="logo"><h1>Instagram</h1>
+        <i class="fa-regular fa-comments"></i>
+    </div>
+   
+       <div class="home">
+      <div class="story">
+        <div class="story-content">
+            <div class="put"></div>
+            <p>hello</p>
+        </div>
+        <div class="story-content">
+            <div class="put"></div>
+            <p>hello</p>
+        </div>
+        <div class="story-content">
+            <div class="put"></div>
+            <p>hello</p>
+        </div>
+        <div class="story-content">
+            <div class="put"></div>
+            <p>hello</p>
+        </div>
+        <div class="story-content">
+            <div class="put"></div>
+            <p>hello</p>
+        </div>
+        <div class="story-content">
+            <div class="put"></div>
+            <p>hello</p>
+        </div>
+        <div class="story-content">
+            <div class="put"></div>
+            <p>hello</p>
+        </div>
+        <div class="story-content">
+            <div class="put"></div>
+            <p>hello</p>
+        </div>
+        <div class="story-content">
+            <div class="put"></div>
+            <p>hello</p>
+        </div>
+       
+       
+      </div>
+      <div class="block">
+        <div class="post1">
+            <div class="put"></div>
+            <div class="post-content">
+                <p>hello</p>
+                <p>hello</p>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="post2">
+            <img src="" alt="" srcset="">
+        </div>
+        <div class="post3">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-sharp fa-regular fa-comment fa-flip-horizontal"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+            <i class="fa-regular fa-bookmark"></i>
+
+        </div>
+        <p>305 likes</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, fugiat.</p>
+      </div>
+      <div class="block">
+        <div class="post1">
+            <div class="put"></div>
+            <div class="post-content">
+                <p>hello</p>
+                <p>hello</p>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="post2">
+            <img src="" alt="" srcset="">
+        </div>
+        <div class="post3">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-sharp fa-regular fa-comment fa-flip-horizontal"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+            <i class="fa-regular fa-bookmark"></i>
+
+        </div>
+        <p>305 likes</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, fugiat...more</p>
+      </div>
+      <div class="block">
+        <div class="post1">
+            <div class="put"></div>
+            <div class="post-content">
+                <p>hello</p>
+                <p>hello</p>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="post2">
+            <img src="" alt="" srcset="">
+        </div>
+        <div class="post3">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-sharp fa-regular fa-comment fa-flip-horizontal"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+            <i class="fa-regular fa-bookmark"></i>
+
+        </div>
+        <p>305 likes</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, fugiat.</p>
+      </div>
+      <div class="block">
+        <div class="post1">
+            <div class="put"></div>
+            <div class="post-content">
+                <p>hello</p>
+                <p>hello</p>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="post2">
+            <img src="" alt="" srcset="">
+        </div>
+        <div class="post3">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-sharp fa-regular fa-comment fa-flip-horizontal"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+            <i class="fa-regular fa-bookmark"></i>
+
+        </div>
+        <p>305 likes</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, fugiat.</p>
+      </div>
+      <div class="block">
+        <div class="post1">
+            <div class="put"></div>
+            <div class="post-content">
+                <p>hello</p>
+                <p>hello</p>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="post2">
+            <img src="" alt="" srcset="">
+        </div>
+        <div class="post3">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-sharp fa-regular fa-comment fa-flip-horizontal"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+            <i class="fa-regular fa-bookmark"></i>
+
+        </div>
+        <p>305 likes</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, fugiat.</p>
+      </div>
+      <div class="block">
+        <div class="post1">
+            <div class="put"></div>
+            <div class="post-content">
+                <p>hello</p>
+                <p>hello</p>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="post2">
+            <img src="" alt="" srcset="">
+        </div>
+        <div class="post3">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-sharp fa-regular fa-comment fa-flip-horizontal"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+            <i class="fa-regular fa-bookmark"></i>
+
+        </div>
+        <p>305 likes</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, fugiat.</p>
+      </div>
+      <div class="block">
+        <div class="post1">
+            <div class="put"></div>
+            <div class="post-content">
+                <p>hello</p>
+                <p>hello</p>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="post2">
+            <img src="" alt="" srcset="">
+        </div>
+        <div class="post3">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-sharp fa-regular fa-comment fa-flip-horizontal"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+            <i class="fa-regular fa-bookmark"></i>
+
+        </div>
+        <p>305 likes</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, fugiat.</p>
+      </div>
+      <div class="block">
+        <div class="post1">
+            <div class="put"></div>
+            <div class="post-content">
+                <p>hello</p>
+                <p>hello</p>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="post2">
+            <img src="" alt="" srcset="">
+        </div>
+        <div class="post3">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-sharp fa-regular fa-comment fa-flip-horizontal"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+            <i class="fa-regular fa-bookmark"></i>
+
+        </div>
+        <p>305 likes</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, fugiat.</p>
+      </div>
+      <div class="block">
+        <div class="post1">
+            <div class="put"></div>
+            <div class="post-content">
+                <p>hello</p>
+                <p>hello</p>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="post2">
+            <img src="" alt="" srcset="">
+        </div>
+        <div class="post3">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-sharp fa-regular fa-comment fa-flip-horizontal"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+            <i class="fa-regular fa-bookmark"></i>
+
+        </div>
+        <p>305 likes</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, fugiat.</p>
+      </div> <div class="block">
+        <div class="post1">
+            <div class="put"></div>
+            <div class="post-content">
+                <p>hello</p>
+                <p>hello</p>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="post2">
+            <img src="" alt="" srcset="">
+        </div>
+        <div class="post3">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-sharp fa-regular fa-comment fa-flip-horizontal"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+            <i class="fa-regular fa-bookmark"></i>
+
+        </div>
+        <p>305 likes</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, fugiat.</p>
+      </div>
+      <div class="block">
+        <div class="post1">
+            <div class="put"></div>
+            <div class="post-content">
+                <p>hello</p>
+                <p>hello</p>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="post2">
+            <img src="" alt="" srcset="">
+        </div>
+        <div class="post3">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-sharp fa-regular fa-comment fa-flip-horizontal"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+            <i class="fa-regular fa-bookmark"></i>
+
+        </div>
+        <p>305 likes</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, fugiat.</p>
+      </div>
+      <div class="block">
+        <div class="post1">
+            <div class="put"></div>
+            <div class="post-content">
+                <p>hello</p>
+                <p>hello</p>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="post2">
+            <img src="" alt="" srcset="">
+        </div>
+        <div class="post3">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-sharp fa-regular fa-comment fa-flip-horizontal"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+            <i class="fa-regular fa-bookmark"></i>
+
+        </div>
+        <p>305 likes</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, fugiat.</p>
+      </div>
+      
+      
+    </div>
+    
+</body>
+</html>
