@@ -1,8 +1,153 @@
+       
+        *
+        {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .logo{
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 5px;
+            align-items: center;
+            
+            h1{
+               margin-top: 10px;
+                font-size: 25px;
+                font-style: italic;
+              font-family: Lucida Handwriting;
+            }
+          i{
+                
+                font-size: 30px;
+                
+             
+            }
+        }
+       .home {
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height:auto;
+           border-radius: 10px;
+            /* position: relative; */
+            
+        }
+        .story {
+             background-color: #ffffff;
+             height: 150px;
+             display: flex;
+             justify-content: flex-start;
+             align-items: center;
+             padding: 10px;
+             overflow-x: auto;
+             /* scrollbar-width: none;
+             -ms-overflow-style: none; */
+             border-bottom: 1px solid rgb(130, 129, 129);
+           
+             .put {
+                background-image: url("img/panda-8269336_640.webp");
+                 background-size: 100% 100px;
+                 background-repeat:no-repeat;
+                 background-position: 100% auto;
+                 min-width: 100px;
+                 height: 100px;
+                 background-color: #333;
+                 margin: 0 8px;
+                 border-radius: 50%;
+                 border: 3px solid #ff4444;
+                 flex-shrink: 0;
+                 cursor: pointer;
+                 transition: transform 0.2s;
+             }
 
-body{
-   background-color: aliceblue;
-}
+             .put:hover {
+                 transform: scale(1.1);
+             }
+         }
 
-.home{
-background-color: blue;
-}
+         .story::-webkit-scrollbar {
+             display: none;
+         }             
+        .story-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .block {
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: auto;
+
+            p:nth-child(4){
+               
+            font-size: 20px;
+            font-weight: 50px;
+            margin: 10px;
+        }
+        p:nth-child(5){
+            margin: 10px;
+        }
+            
+        }
+        .post1{
+            /* border: 1px solid #333;; */
+            display: flex;
+            padding: 10px;
+            .put {
+                 width: 60px;
+                 height: 60px;
+                 background-color: #333;
+                 margin: 0 8px;
+                 border-radius: 50%;
+                 border: 3px solid #ff4444;
+                 background-image: url("img/panda-8269336_640.webp");
+                 background-size: 100% 60px;
+                 background-repeat:no-repeat;
+                 background-position: 100% auto;
+                 cursor: pointer;
+                 transition: transform 0.2s;
+             }
+             .post-content{
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            p:nth-child(1){
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+            
+        }
+        i{
+                font-size: 30px;
+                margin-top: 20px;
+                margin-left: 280px;
+            }
+        }
+        .post2{
+            min-height: 400px;
+            background-color: #460000;
+            background-image: url("img/panda-8269336_640.webp");
+                 background-size: 100% 400px;
+                 background-repeat:no-repeat;
+                 background-position: 100% auto;
+        }
+        .post3{
+            height: auto;
+            background-color: rgb(255, 255, 255);
+            i{
+                font-size: 20px;
+                margin: 10px;
+            }
+            i:nth-child(4){
+            margin-left: 270px;
+        }
+        
+        }
+        

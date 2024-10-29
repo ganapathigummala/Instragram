@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.CustomBrowser": "microsoft-edge",
+    "liveServer.settings.NoBrowser": true,
+    "files.autoSaveDelay": 10,
+    "files.autoSave": "afterDelay"
+}
